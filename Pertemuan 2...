@@ -1,0 +1,307 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyONjSXAztZHtcCxAMoHJFN8",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Egihauw08/Pemograman-Dasar/blob/main/Pertemuan%202...\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "lV28AtR8A-Mj",
+        "outputId": "e6ca3a72-259d-4bb0-d103-4e134710b062"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "43\n"
+          ]
+        }
+      ],
+      "source": [
+        "# deklarasi variabel list\n",
+        "numbers = [ 23, 43, 15, 34]\n",
+        "# cara mengakses elemen dalam variabel list\n",
+        "numbers[0]  # 23\n",
+        "numbers[1]  # 43\n",
+        "numbers[2]  # 15\n",
+        "numbers[3]  # 34\n",
+        "# cara mengubah nilai elemen dalan variabel list\n",
+        "numbers[2] # 51\n",
+        "numbers[2] # 51\n",
+        "\n",
+        "print (numbers[1]) #lakukan untuk setiap indexnya dan lihat hasilnya"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# deklarasi variabel list numbers\n",
+        "numbers = [1, 2, 3]\n",
+        "\n",
+        "# menambahkan elemen di indeks ke-4\n",
+        "numbers.insert(4, 5)   # [1, 2, 3, 5]\n",
+        "\n",
+        "# mengubah elemen di indeks ke-4\n",
+        "numbers[3] = 4    # [1, 2, 3, 4]\n",
+        "\n",
+        "# menghapus elemen di indeks ke-2\n",
+        "numbers.pop(2)   # [1, 2, 4]\n",
+        "\n",
+        "#print lalu lihat hasilnya"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "55bpYkB4EhJY",
+        "outputId": "11789aeb-ad27-4368-8bd2-50b3d479c9a1"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "3"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 2
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# deklarasi variabel list numbers\n",
+        "numbers = [1, 2, 3]\n",
+        "\n",
+        "# menambahkan elemen di indeks ke-4\n",
+        "numbers.insert(4, 5) # [1, 2, 3, 5]\n",
+        "\n",
+        "# mengubah elemen di indeks ke-4\n",
+        "numbers[3] = 4 # [1, 2, 3, 4]\n",
+        "\n",
+        "# menghapus elemen di indeks ke-2\n",
+        "numbers.pop(2) # [1, 2, 4]\n",
+        "\n",
+        "#print setiap hasil perubahan dan amati hasilnya"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "VKUjabbTGIab",
+        "outputId": "463f6263-351e-4f9d-cd62-7be3b0e63db4"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "3"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 3
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "G_LFr2FQL4qH"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# deklarasi variabel list\n",
+        "myList = [1,\"rumah\", 4.5, True, [\"Kamar mandi\", \"Kamar tidur\"]]\n",
+        "\n",
+        "# cara mengakses elemen dalam variabel list\n",
+        "myList[0]  # 1\n",
+        "myList[1]  # \"Rumah\"\n",
+        "myList[3]  # True\n",
+        "myList[4]  # [\"Kamar mandi\", \"Kamar tidur\"]\n",
+        "\n",
+        "# cara mengakses elemen dalam sublist\n",
+        "myList[4][0]  # \"Kamar mandi\"\n",
+        "myList[4][1]  #  \"Kamar tidur\"\n",
+        "\n",
+        "#lakukan print lalu amati hasilnya"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "LzuC8f-fHEfB",
+        "outputId": "e1fe4e40-2dec-42c3-a99d-2fc173c8daa4"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'Kamar tidur'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 4
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# deklarasi variabel tuple\n",
+        "numbers = (23, 43, 15, 34)\n",
+        "\n",
+        "# cara mengakses elemen dalam variabel tuple\n",
+        "numbers[0]  # 23\n",
+        "numbers[1]  # 43\n",
+        "numbers[2]  # 15\n",
+        "\n",
+        "#lakukan print lalu amati hasilnya"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "xbLGmZmaL8d3",
+        "outputId": "fabe6061-2097-437d-811f-82952d59efdf"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "15"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 5
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# deklarasi variabel set a dan b\n",
+        "a = {1, 2, 3}\n",
+        "b = {2, 3, 4}\n",
+        "\n",
+        "#  operasi gabungan\n",
+        "a.union(b)     # {1, 2, 3, 4}\n",
+        "\n",
+        "#  operasi irisan\n",
+        "a.intersection(b)     # {2, 3}\n",
+        "\n",
+        "#  operasi perbedaan\n",
+        "a.symmetric_difference(b)     # {1, 4}\n",
+        "\n",
+        "#  lakukan print dan lihat hasilnya"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ckyHIUQxNdN0",
+        "outputId": "76de7e56-b054-4583-90c8-3cfe9d8e8681"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "{1, 4}"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 3
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# deklarasi variabel dictionary\n",
+        "propertyDetail = {\"numFloors\": 1, \"propertyType\": \"Rumah\", \"hasTerrace\": True, \"hasGarage\": False}\n",
+        "\n",
+        "# cara mengakses elemen dalam variabel dictionary\n",
+        "propertyDetail[\"numFloors\"]      # 1\n",
+        "propertyDetail[\"propertyType\"]   # Rumah\n",
+        "propertyDetail[\"hasTerrace\"]     # True\n",
+        "propertyDetail[\"hasGarage\"]      # False\n",
+        "\n",
+        "# cara mengubah nilai elemen dalam variabel dictionary\n",
+        "propertyDetail[\"hasTerrace\"] = False\n",
+        "\n",
+        "propertyDetail[\"hasTerrace\"]   # False\n",
+        "\n",
+        "#print(propertyDetail[\"propertyType\"])\n",
+        "\n",
+        "#lakukan print lalu amati hasilnya"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "UvzRla6YPhc3",
+        "outputId": "1147bb6e-1bf3-4e27-a330-6a33057f3e6f"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "False"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 4
+        }
+      ]
+    }
+  ]
+}
